@@ -25,7 +25,20 @@ h1, h3{
 p, li
 {
     letter-spacing: 1px;
+    
 }
 h4{
     color: rgb(101, 101, 231);
+}
+@media screen and (max-width: 800px) {
+    .change
+    {
+        width: 100% !important;
+    }
+}
+@media screen and (max-width: 420px) {
+    .change
+    {
+        width: 100% !important;
+    }
 }
